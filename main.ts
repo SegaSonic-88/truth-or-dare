@@ -1,5 +1,3 @@
-let Fate = 0
-let Direction2 = 0
 input.onButtonPressed(Button.A, function () {
     Fate = randint(0, 1)
     if (Fate == 0) {
@@ -79,3 +77,7 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(2000)
     basic.clearScreen()
 })
+let Direction2 = 0
+let Fate = 0
+music.playMelody("C E G B - G A - ", 140)
+basic.showString("Truth-OR-Dare!")
